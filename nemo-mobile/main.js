@@ -105,7 +105,7 @@
 
         // jsList
         var jsList = settings.jsList;
-        var bundledScript = settings.debug ? 'https://prophys.github.io/nemo-mobile/project.dev.js' : 'https://prophys.github.io/nemo-mobile/project.js';
+        var bundledScript = settings.debug ? 'project.dev.js' : 'project.js';
         if (jsList) {
             jsList.push(bundledScript);
         }
@@ -117,6 +117,8 @@
         if (cc.sys.isNative && cc.sys.isMobile) {
             jsList = jsList.concat(['jsb_anysdk.js', 'jsb_anysdk_constants.js']);
         }
+
+        console.log(jsList);
 
         jsList = jsList.map(function (x) { return 'src/' + x; });
 
