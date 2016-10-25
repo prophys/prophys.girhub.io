@@ -1,0 +1,14 @@
+#nemo-create {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.title {
+	margin-bottom: 30px;
+}
+
+input {
+	border: 1px #d9d9d9 solid;
+	padding: .3125;
+	width: 300px;
+}

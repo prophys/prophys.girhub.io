@@ -1,0 +1,15 @@
+.game-container {
+	background-color: #a3cca2;
+	padding-top: 60px;
+	padding-bottom: 60px;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.head {
+	margin-bottom: 30px;
+}
+#record-field {
+	margin-bottom: 30px;
+	color: white;
+	font-size: 20pt;
+}

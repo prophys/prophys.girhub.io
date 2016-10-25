@@ -1,0 +1,27 @@
+.navbar-default {
+	/*background-color: #daead9;*/
+}
+.hide {
+	display: none;
+}
+.profile-image {
+	width: 18px;
+	height: 18px;
+}
+.color-blue-2 {
+	color: #337ab7;
+}
+.color-red {
+	color: red;
+}
+.cursor-hand {
+	cursor: pointer;
+}
+.position-absolute {
+	position: absolute;
+}
+.footer {
+	border-top: 1px solid #ccc;
+	margin-top: 30px;
+	padding-top: 20px;
+}
