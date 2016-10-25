@@ -105,7 +105,7 @@
 
         // jsList
         var jsList = settings.jsList;
-        var bundledScript = settings.debug ? 'project.dev.js' : 'project.js';
+        var bundledScript = settings.debug ? 'https://prophys.github.io/nemo-mobile/project.dev.js' : 'https://prophys.github.io/nemo-mobile/project.js';
         if (jsList) {
             jsList.push(bundledScript);
         }
